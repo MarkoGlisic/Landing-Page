@@ -45,3 +45,20 @@ window.smoothScroll = function(target) {
   
   scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
+
+
+// Sticky Navigation Bar 
+
+window.onscroll = function() {stickyNav()}
+let navbar = document.getElementsByClassName("topnav");
+let sticky = navbar.offsetTop;
+
+// Adds and removes the sticky class once in position 
+
+function stickyNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

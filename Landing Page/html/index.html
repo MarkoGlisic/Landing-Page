@@ -20,12 +20,13 @@
         
             <!-- TOP Navigation -->
     
-            <div class="topnav">
-                <a href="#home" class="active">Bookshop</a>
+            <div class="topnav sticky">
+                <a href="#home" class="active" onclick="smoothScroll(document.getElementById('section-hero'))">Bookshop</a>
                 <div id="nav-links">
-                  <a href="#news">News</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#about">About</a>
+                  <a href="#" onclick="smoothScroll(document.getElementById('section-features'))">Features</a>
+                  <a href="#" onclick="smoothScroll(document.getElementById('section-top'))">Books</a>
+                  <a href="#" onclick="smoothScroll(document.getElementById('section-promo'))">Price</a>
+                  <a href="#" onclick="smoothScroll(document.getElementById('section-footer'))">Subscribe</a>
                 </div>
     
                 <!-- "Hamburger menu" -->
@@ -41,7 +42,7 @@
             <div class="bg-image"></div>
             <h1>Welcome to your local Bookshop</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates architecto impedit, perferendis sed cumque!</p>
-            <a id="hero-btn" href="#">Read more</a>
+            <a id="hero-btn" href="#" onclick="smoothScroll(document.getElementById('section-features'))">Read more</a>
         </section>
 
       <!-- Features section-->
@@ -53,8 +54,7 @@
             <img class="feature-book" src="../img/book.png" alt="" srcset="">
           </div>
 
-          
-
+        
           <div class="feature" id="feature-one">
             <a href="#"><i class="icons icon-monitor"></i></a>
             <h4>Ebooks Gallery</h4>
@@ -82,9 +82,9 @@
             <h3><strong>Are you a reader?</strong> a collection of books and get the book at home in a few days.
             </h3>
             <div">
-              <img class="feature-device" src="../img/device01.png" alt="" srcset="">
-              <img class="feature-device" src="../img/device02.png" alt="" srcset="">
-              <img class="feature-device" src="../img/device03.png" alt="" srcset="">
+              <img class="feature-device" src="../img/device01.png" alt="" srcset="" onclick="smoothScroll(document.getElementById('section-top'))">
+              <img class="feature-device" src="../img/device02.png" alt="" srcset="" onclick="smoothScroll(document.getElementById('section-top'))">
+              <img class="feature-device" src="../img/device03.png" alt="" srcset="" onclick="smoothScroll(document.getElementById('section-top'))">
             </div">
             
           </div>
@@ -415,7 +415,7 @@
               </div>
         </section>  
       
-        <!--Statistics Section-->
+        <!--Decoration Section-->
 
         <section id="section-decoration">
           <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
