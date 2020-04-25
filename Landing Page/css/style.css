@@ -589,7 +589,6 @@ input[type='email'] {
     color: #875774 ;
 }
 
-
 /* Decoration Section Styles */
 
 .astrodivider {
@@ -836,13 +835,17 @@ input[type='email'] {
 /* hi-res laptops and desktops */ 
 @media (min-width:1281px) { 
     #section-hero h1 {
-        margin: 50px 0 25px 0 0;
+        padding: 200px 0 60px 0;
         font-size: 4rem;
     }
 
     #section-hero p {
         font-size: 2.2rem;
-        margin-bottom: 20px;
+        padding-bottom: 30px;
+    }
+
+    #hero-btn {
+        padding: 1.4em 3.9em;
     }
 
     .card-wrapper {
@@ -866,10 +869,19 @@ input[type='email'] {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    #section-hero {
+        height: 640px;
+    }
+
+    .bg-image {
+        height: 640px;
+    }
     
     #section-footer {
         position: relative;
     }
+
     .footer-social {
         position: absolute;
         bottom: 0;
