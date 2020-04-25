@@ -3,3 +3,4 @@ Project inspired by Free Code Camp's third Responsive Web Design Project - Produ
 
 Technologies used: 
 HTML, CSS, JavaScript
+-Mobile First approach
