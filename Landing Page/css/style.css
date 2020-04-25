@@ -11,6 +11,9 @@ h1 {
 }
 
 /* Navigation Style */
+.large-navbar {
+    display: none;
+}
 
 .topnav {
     overflow: hidden;
@@ -689,12 +692,144 @@ input[type='email'] {
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 @media (min-width:801px) { 
+    #feature-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 
+    #feature-main img {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        margin: 50px 0 50px 50px;
+        height: 300px;
+        width: 250px;
+    }
+
+    #feature-main h2 {
+        margin: 60px 0;
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    #feature-main h6 {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        align-self: center;
+    }
+
+    .feature-device {
+        padding-left: 80px;
+    }
+
+    #feature-large h3 {
+        text-align: center;
+    }
+
+    .card {
+        width: 50%;
+        margin  -top: 1  50px;
+    }
+    
+    .footer-navbar {
+        margin-left: 90px;
+    }
+
+    .footer-social {
+        margin-left: 80px;
+    }
+
+    .user-photo{
+        margin-left: 20px;
+        height: 140px;
+        width: 140px;
+    }
+
+    .user-testimonial {
+        margin-left: 200px;
+        font-size: 2rem;
+    }
+
+    .user-signature {
+        margin-right: 200px;
+        font-size: 1.7rem;
+    }
 }
 
 /* big landscape tablets, laptops, and desktops */ 
 @media (min-width:1025px) { 
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .large-navbar {
+        display: flex;
+    }
+    .topnav a.icon {
+        display: none;
+    }
 
+    .feature-device {
+        padding-left: 100px;
+        margin-left: 50px;
+    }
+
+    #feature-large h3 {
+        font-size: 2rem;
+    }
+
+    .book-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .book-display {
+        margin-left: 5px;
+    }
+    
+    #section-footer {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.7rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-social ul {
+        display: inline;
+        
+        
+    }
+
+    .footer-social ul li {
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 35px;
+        
+    }
+
+    .footer-navbar {
+        padding: 0;
+        margin: 0;
+    }
+
+    .user-photo{
+        margin-left: 50px;
+        height: 160px;
+        width: 160px;
+    }
+
+    .user-testimonial {
+        margin-left: 280px;
+        font-size: 2.5rem;
+    }
+
+    .user-signature {
+        margin-right: 260px;
+        font-size: 1.8rem;
+    }
 }
 
 /* hi-res laptops and desktops */ 

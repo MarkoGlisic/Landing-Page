@@ -21,7 +21,14 @@
             <!-- TOP Navigation -->
     
             <div class="topnav sticky">
-                <a href="#home" class="active" onclick="smoothScroll(document.getElementById('section-hero'))">Bookshop</a>
+                <a href="#home" class="active large-nav" onclick="smoothScroll(document.  getElementById('section-hero'))">Home</a>
+                <div class="large-navbar">
+                  <a href="#home" class="active large-nav" onclick="smoothScroll(document.  getElementById('section-features'))">Features</a>
+                  <a href="#home" class="active large-nav" onclick="smoothScroll(document.  getElementById('section-top'))">Books</a>
+                  <a href="#home" class="active large-nav" onclick="smoothScroll(document.  getElementById('section-promo'))">Price</a>
+                  <a href="#home" class="active large-nav" onclick="smoothScroll(document.  getElementById('section-footer'))">Subscribe</a>
+                </div>
+                  
                 <div id="nav-links">
                   <a href="#" onclick="smoothScroll(document.getElementById('section-features'))">Features</a>
                   <a href="#" onclick="smoothScroll(document.getElementById('section-top'))">Books</a>
@@ -49,8 +56,8 @@
 
         <section id="section-features">
           <div id="feature-main">
-            <h2>ORIGINAL BOOKS & COMICS</h2>
-            <h6>Start with two Free Books now.</h6>
+            <h2 class="feature-title">ORIGINAL BOOKS & COMICS</h2>
+            <h6 class="fature-description">Start with two Free Books now.</h6>
             <img class="feature-book" src="../img/book.png" alt="" srcset="">
           </div>
 
@@ -429,7 +436,26 @@
             <h2 id="promo-title">Our Plans</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, laborum, reprehenderit, nesciunt sapiente assumenda ab beatae velit ea perspiciatis animi unde officia odit.</p>
           </div>
-
+          <div class="card-wrapper">
+            <div class="card-container">
+              <div class="card">
+                  <div class="description">
+                    <h2><span id="card-title"><strong>$9</strong></span><small>/month</small></h2>
+                    <h4 id="card-plan">Basic</h4>
+                    <ul id="lists">
+                      <li>250 eBooks</li>
+                      <li>10 Comics</li>
+                      <li>5 Books</li>
+                      <li>36 Magazines</li>
+                      <li>Premium Books</li>
+                    </ul>
+                  </div>
+                  <div id="btn-container">
+                    <a id="sign-up-btn" href="#">Sign Up</a>
+                  </div>
+              </div>
+          </div>
+  
           <div class="card-container">
             <div class="card">
                 <div class="description">
@@ -448,7 +474,7 @@
                 </div>
             </div>
         </div>
-
+  
         <div class="card-container">
           <div class="card">
               <div class="description">
@@ -467,25 +493,8 @@
               </div>
           </div>
       </div>
-
-      <div class="card-container">
-        <div class="card">
-            <div class="description">
-              <h2><span id="card-title"><strong>$9</strong></span><small>/month</small></h2>
-              <h4 id="card-plan">Basic</h4>
-              <ul id="lists">
-                <li>250 eBooks</li>
-                <li>10 Comics</li>
-                <li>5 Books</li>
-                <li>36 Magazines</li>
-                <li>Premium Books</li>
-              </ul>
-            </div>
-            <div id="btn-container">
-              <a id="sign-up-btn" href="#">Sign Up</a>
-            </div>
-        </div>
-    </div>
+          </div>
+          
       </section>
 
       <!-- Newsletter Section-->
