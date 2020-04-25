@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/fontello/css/fontello.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+    <title>Landing Page</title>
+</head>
+<body>
+    <main id="main">
+
+        <header id="header">
+        
+            <!-- TOP Navigation -->
+    
+            <div class="topnav">
+                <a href="#home" class="active">Bookshop</a>
+                <div id="nav-links">
+                  <a href="#news">News</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#about">About</a>
+                </div>
+    
+                <!-- "Hamburger menu" -->
+    
+                <a href="javascript:void(0);" class="icon" onclick="navbarToggle()"><ion-icon class="burger-icon" name="menu-outline"></ion-icon>
+                </a>
+              </div>
+        </header>   
+    
+        <!-- Hero section -->
+
+        <section id="section-hero">
+            <div class="bg-image"></div>
+            <h1>Welcome to your local Bookshop</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptates architecto impedit, perferendis sed cumque!</p>
+            <a id="hero-btn" href="#">Read more</a>
+        </section>
+
+      <!-- Features section-->
+
+        <section id="section-features">
+          <div id="feature-main">
+            <h2>ORIGINAL BOOKS & COMICS</h2>
+            <h6>Start with two Free Books now.</h6>
+            <img class="feature-book" src="../img/book.png" alt="" srcset="">
+          </div>
+
+          
+
+          <div class="feature" id="feature-one">
+            <a href="#"><i class="icons icon-monitor"></i></a>
+            <h4>Ebooks Gallery</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, provident.</p>
+          </div>
+
+          <div class="feature" id="feature-two">
+            <a href="#"><i class="icons icon-bell"></i></a>
+            <h4>Top New Authors</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, provident.</p>
+          </div>
+
+          <div class="feature" id="feature-three">
+            <a href="#"><i class="icons icon-users"></i></a>
+            <h4>Readers Network</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, provident.</p>
+          </div>
+
+          <div class="feature" id="feature-four">
+            <a href="#"><i class="icons icon-globe"></i></ion-icon></a>
+            <h4>All Languages</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, provident.</p>
+          </div>
+          <div id="feature-large">
+            <h3><strong>Are you a reader?</strong> a collection of books and get the book at home in a few days.
+            </h3>
+            <div">
+              <img class="feature-device" src="../img/device01.png" alt="" srcset="">
+              <img class="feature-device" src="../img/device02.png" alt="" srcset="">
+              <img class="feature-device" src="../img/device03.png" alt="" srcset="">
+            </div">
+            
+          </div>
+        </section>
+
+        <!-- Testimonials Section-->
+
+        <section id="section-testimonials">
+          <div id="user-info">
+            <img class="user-photo" src="../img/user1.jpg">
+            <h3 class="user-testimonial">Best books I've ever read in my entire life!</h3>
+            <p class="user-signature">John Smith</p>
+            
+          </div>
+        </section>
+        
+
+        <!--Top Book Section-->
+
+        <section id="section-top">
+            <div id="book-tab-nav">
+              <div id="bookTab1" onClick="JavaScript:selectTab(1);">Show all</div>
+              <div id="bookTab2" onClick="JavaScript:selectTab(2);">Classics</div>
+              <div id="bookTab3" onClick="JavaScript:selectTab(3);">Thiller</div>
+              <div id="bookTab3" onClick="JavaScript:selectTab(4);">Fantasy</div>
+            </div>
+            
+            
+              <div class="book-container" id="bookTab1Content">
+               
+                <!--Display of Books-->
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/catcher.jpg" alt="" srcset="">
+                    <h3 id="book-title">The Catcher in the RYE</h3>
+                    <p id="book-genre">Classics</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/hemingway.jpg" alt="" srcset="">
+                    <h3 id="book-title">For Whom the Bell Tolls</h3>
+                    <p id="book-genre">Classics</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div class="longer-deco" id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/labyrinths.jpg" alt="" srcset="">
+                    <h3 id="book-title">Labyrinths</h3>
+                    <p id="book-genre">Classics</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/gone-girl.jpg" alt="" srcset="">
+                    <h3 id="book-title">Gone Girl</h3>
+                    <p id="book-genre">Thriller</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/agatha.jpg" alt="" srcset="">
+                    <h3 id="book-title">Murder on the Orient Express</h3>
+                    <p id="book-genre">Thriller</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/whisperer.jpg" alt="" srcset="">
+                    <h3 id="book-title">The Whisperer</h3>
+                    <p id="book-genre">Thriller</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/lotr.jpg" alt="" srcset="">
+                    <h3 id="book-title">The Return of the King</h3>
+                    <p id="book-genre">Fantasy</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/eragon.jpg" alt="" srcset="">
+                    <h3 id="book-title">Eragon</h3>
+                    <p id="book-genre">Fantasy</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/witcher.jpg" alt="" srcset="">
+                    <h3 id="book-title">Blood of Elves</h3>
+                    <p id="book-genre">Fantasy</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+
+                
+              <!--TABS Content-->
+                
+              </div>
+              <div class="book-container" id="bookTab2Content">
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/catcher.jpg" alt="" srcset="">
+                    <h3 id="book-title">The Catcher in the RYE</h3>
+                    <p id="book-genre">Classics</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/hemingway.jpg" alt="" srcset="">
+                    <h3 id="book-title">For Whom the Bell Tolls</h3>
+                    <p id="book-genre">Classics</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/labyrinths.jpg" alt="" srcset="">
+                    <h3 id="book-title">Labyrinths</h3>
+                    <p id="book-genre">Classics</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+              </div>
+
+              <div class="book-container" id="bookTab3Content">
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/gone-girl.jpg" alt="" srcset="">
+                    <h3 id="book-title">Gone Girl</h3>
+                    <p id="book-genre">Thriller</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/agatha.jpg" alt="" srcset="">
+                    <h3 id="book-title">Murder on the Orient Express</h3>
+                    <p id="book-genre">Thriller</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/whisperer.jpg" alt="" srcset="">
+                    <h3 id="book-title">The Whisperer</h3>
+                    <p id="book-genre">Thriller</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+              </div>
+            
+              <div class="book-container" id="bookTab4Content">
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/lotr.jpg" alt="" srcset="">
+                    <h3 id="book-title">The Return of the King</h3>
+                    <p id="book-genre">Fantasy</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/eragon.jpg" alt="" srcset="">
+                    <h3 id="book-title">Eragon</h3>
+                    <p id="book-genre">Fantasy</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+                <div class="book-display">
+                  <div id="book-display-content">
+                    <img id="book-display-image" src="../img/book-covers/witcher.jpg" alt="" srcset="">
+                    <h3 id="book-title">Blood of Elves</h3>
+                    <p id="book-genre">Fantasy</p>
+                    <div id="book-star">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                    </div>
+                    <div id="bottom-decoration"></div>
+                  </div>
+                </div> 
+              </div>
+        </section>  
+      
+        <!--Statistics Section-->
+
+        <section id="section-statistics">
+          
+          </div>
+        </section>
+
+        <!--Statistics Section-->
+
+        <section id="section-promo">
+
+          <div id="promo-intro">
+            <h2 id="promo-title">Our Plans</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, laborum, reprehenderit, nesciunt sapiente assumenda ab beatae velit ea perspiciatis animi unde officia odit.</p>
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+                <div class="description">
+                  <h2><span id="card-title"><strong>$9</strong></span><small>/month</small></h2>
+                  <h4 id="card-plan">Basic</h4>
+                  <ul id="lists">
+                    <li>250 eBooks</li>
+                    <li>10 Comics</li>
+                    <li>5 Books</li>
+                    <li>36 Magazines</li>
+                    <li>Premium Books</li>
+                  </ul>
+                </div>
+                <div id="btn-container">
+                  <a id="sign-up-btn" href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+              <div class="description">
+                <h2><span id="card-title"><strong>$9</strong></span><small>/month</small></h2>
+                <h4 id="card-plan">Basic</h4>
+                <ul id="lists">
+                  <li>250 eBooks</li>
+                  <li>10 Comics</li>
+                  <li>5 Books</li>
+                  <li>36 Magazines</li>
+                  <li>Premium Books</li>
+                </ul>
+              </div>
+              <div id="btn-container">
+                <a id="sign-up-btn" href="#">Sign Up</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+            <div class="description">
+              <h2><span id="card-title"><strong>$9</strong></span><small>/month</small></h2>
+              <h4 id="card-plan">Basic</h4>
+              <ul id="lists">
+                <li>250 eBooks</li>
+                <li>10 Comics</li>
+                <li>5 Books</li>
+                <li>36 Magazines</li>
+                <li>Premium Books</li>
+              </ul>
+            </div>
+            <div id="btn-container">
+              <a id="sign-up-btn" href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+      </section>
+
+      <!-- Newsletter Section-->
+
+      <section id="section-newsletter">
+        <div class="newsletter-container">
+              <p class="newsletter-title">Subscribe to our Newsletter for the latest news.</p>
+              <input class="email-form" type="email" name="email" id="email" placeholder="Enter your email address">
+              <button id="news-submit-btn" type="submit">Subscribe</button>
+        </div>
+      </section>
+
+      <!--Footer-->
+
+      <footer id="section-footer">
+        <div class="footer-navbar">
+          <ul>
+            <li>Home</li>
+            <li>Features</li>
+            <li>Books</li>
+            <li>Price</li>
+            <li>Subscribe</li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <ul>
+            <li><a href="#"><i class="icon-flickr"></i></a></li>
+            <li><a href="#"><i class="icon-vimeo"></i></a></li>
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-gplus"></i></a></li>
+            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+            <li><a href="#"><i class="icon-pinterest"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+</body>
+</html>
+
+<!-- Home , Features,books, price,subscribe-->
