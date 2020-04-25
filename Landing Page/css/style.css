@@ -637,47 +637,33 @@ input[type='email'] {
 }
 
 
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px) { 
 
-
-/*
-@media (min-width:801px) {
-
-    #section-features {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 100px 100px;
-        padding: 10px;
-    }
-    
-    #feature-main {
-        grid-row: 1/4;
-        grid-column: 1/2;
-    }
-    
-    #feature-one {
-        grid-row: 1/3;
-        grid-column: 2/4;
-    }
-    
-    #feature-two {
-        grid-row: 2/3;
-        grid-column: 2/4;
-    }
-    
-    #feature-three {
-        grid-row: 1/3;
-        grid-column: 3/4;
-    }
-    
-    #feature-four {
-        grid-row: 2/3;
-        grid-column: 3/4;
-    }
-    
-    #feature-large {
-        grid-row: 3/4;
-        grid-column: 2/4;
-    }
 }
 
-*/
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) {
+
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {  
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:801px) { 
+
+}
+
+/* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) { 
+
+}
+
+/* hi-res laptops and desktops */ 
+@media (min-width:1281px) { 
+    
+}
+
