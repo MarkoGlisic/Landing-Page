@@ -763,6 +763,7 @@ input[type='email'] {
         flex-direction: row;
         justify-content: center;
     }
+
     .large-navbar {
         display: flex;
     }
@@ -834,6 +835,35 @@ input[type='email'] {
 
 /* hi-res laptops and desktops */ 
 @media (min-width:1281px) { 
+    #section-hero h1 {
+        margin: 50px 0 25px 0 0;
+        font-size: 4rem;
+    }
 
+    #section-hero p {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .topnav {
+        justify-content: flex-end;
+    }
+
+    .topnav a {
+        margin-left: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .book-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
-
