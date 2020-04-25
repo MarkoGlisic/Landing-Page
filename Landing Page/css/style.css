@@ -275,7 +275,7 @@ img {
 
 #user-info {
     padding-top: 150px;
-    padding-left: 5px;
+    padding-left: 10px;
     height: 150px;
 }
 
@@ -293,6 +293,8 @@ img {
 }
 
 .user-signature {
+    text-align: right;
+    margin-right: 30px;
     font-size: 1.5rem;
 }
 
@@ -313,6 +315,7 @@ img {
 #section-top {
     height: auto;
     font-size: 1.7rem;
+    margin-bottom: 150px;
 }
 
 .book-container {
@@ -387,8 +390,6 @@ img {
     color:#875774;
 }
 
-
-
 #bottom-decoration {
     position: absolute;
     border-radius: 5px;
@@ -406,21 +407,9 @@ img {
     margin-left: 15px;
 }
 
-/* Statistics Section Style */
-
-#section-statistics {
-    position: relative;
-    margin: 50px 0;
-    height: 250px;
-    width: 100%;
-    background-color: #ddd;
-}
-
 
 /* Promotion Section Stlye */
 
-#section-promo {
-}
 
 .card-container {
     text-align: left;
@@ -594,7 +583,53 @@ input[type='email'] {
 }
 
 
+/* Decoration Section Styles */
 
+.astrodivider {
+    margin: 100px auto;
+    width:420px; 
+    max-width: 100%;
+    position:relative;
+}
+  
+.astrodividermask { 
+    overflow:hidden;
+    height:20px; 
+}
+  
+.astrodividermask:after { 
+    content:''; 
+    display:block; 
+    margin:-25px auto 0;
+    width:100%;
+    height:25px;  
+    border-radius:125px / 12px;
+    box-shadow:0 0 8px #875774;
+}
+
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; 
+    margin-bottom:-25px;
+    left:50%;
+    margin-left:-25px;
+    border-radius:100%;
+    box-shadow:0 2px 4px #875774;
+    background:#fff;
+}
+
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #875774;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+    color:#8757742;
+}
 
 
 
