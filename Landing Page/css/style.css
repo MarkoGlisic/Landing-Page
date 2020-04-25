@@ -866,4 +866,14 @@ input[type='email'] {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
+    #section-footer {
+        position: relative;
+    }
+    .footer-social {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        
+    }
 }
